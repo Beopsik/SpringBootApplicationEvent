@@ -11,10 +11,14 @@ public class SampleRunner implements ApplicationRunner {
     @Value("${my.name}")
     private String name;
 
+    @Value("${my.age}")
+    private int age;
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("====================");
         System.out.println(name);
+        System.out.println(age);
         System.out.println("====================");
     }
 }
