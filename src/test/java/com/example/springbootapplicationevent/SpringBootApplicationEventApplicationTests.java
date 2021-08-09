@@ -13,13 +13,13 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 @SpringBootTest
 class SpringBootApplicationEventApplicationTests {
 
-    @Autowired
+    /*@Autowired
     Environment environment;
 
     @Test
     void contextLoads() {
         assertThat(environment.getProperty("my.name"))
                 .isEqualTo("BeobSik");
-    }
+    }*/
 
 }
